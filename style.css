@@ -221,14 +221,14 @@ padding-right: 20px;
 
 }
 
-.all-projects{
+/* .all-projects{
 display: flex;
 align-items: center;
 justify-content: center;
  
-}
+} */
 
-.all-projects a{
+/* .all-projects a{
   color:#C5BFBF;
   padding-bottom: 10px;
   
@@ -236,7 +236,7 @@ justify-content: center;
 
 .all-projects a:hover{
   color:#38B7BE ;
-}
+} */
 
 
 .project{
@@ -361,16 +361,22 @@ justify-content: center;
 
 @media (max-width : 640px)
 
-
 {
+
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+  }
 
   .menu-links{
     display: flex;
     flex-direction: column;
     top : 70px;
     position: absolute;
-    left: 0;
-    padding-left: 2px;
+    /* left: 0; */
+    padding-left: 30px;
     background: black;
     width: 100%;
     height: 100vh;
@@ -534,6 +540,12 @@ text-align: center;
   
 }
 
+.AboutMe-text h4{
+  font-size: 16px;
+  
+
+}
+
 
 .skills{
 
@@ -557,7 +569,7 @@ text-align: center;
 }
 
 .project .project-containers img{
-  max-width: 300px;
+  max-width: 200px;
  
 }
 
@@ -572,19 +584,33 @@ text-align: center;
 
 .project .project-containers > *{
   min-height: auto;
+  max-width: 350px;
+  border: none;
 }
+
+/* .project .project-containers > *{
+  max-width: 550px;
+  min-height: 400px;
+  border: 0.5px solid #C5BFBF;
+  padding: 20px;
+} */
+
 
 .project-overall-box .project-h2{
   margin-bottom: 20px;
-   font-size: 14px;
+   font-size: 16px;
    margin-top: 30px;
   
- 
+
 }
 
-.all-projects{
+/* .all-projects{
   padding : 20px 40px 10px 0;
-}
+  margin-top: 30px;
+
+
+} */
+
 
 
 /* .contact .contact-box{
